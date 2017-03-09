@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="ICare.WMR"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ICare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#ad1457">
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="126,65,0,0" TextWrapping="Wrap" Text="Pregnent Woman Registration" Foreground="White" FontSize="30" VerticalAlignment="Top" Height="50"/>
+        <!--Diliery Date-->
+        <TextBlock x:Name="textBlock1" Foreground="White" HorizontalAlignment="Left" Margin="55,178,0,0" TextWrapping="Wrap" Text="Expected Divilary Date :" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="240,172,0,0" VerticalAlignment="Top" Width="164"></DatePicker>
+
+        <!--Diliery Date-->
+        <TextBlock x:Name="textBlock2" Foreground="White" HorizontalAlignment="Left" Margin="54,228,0,0" TextWrapping="Wrap" Text="Ongoing Month :" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="241,224,0,0" TextWrapping="Wrap" Text="Mounth Number" VerticalAlignment="Top" Width="290"></TextBox>
+        <TextBlock x:Name="textBlock3" Foreground="White" HorizontalAlignment="Left" Margin="56,281,0,0" TextWrapping="Wrap" Text="Current Address :" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="240,275,0,0" TextWrapping="Wrap" Text="Current Address" VerticalAlignment="Top" Width="290"/>
+        <TextBlock x:Name="textBlock4" Foreground="White" HorizontalAlignment="Left" Margin="55,332,0,0" TextWrapping="Wrap" Text="Active Mobile Number :" VerticalAlignment="Top" SelectionChanged="textBlock3_Copy_SelectionChanged"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="240,327,0,0" TextWrapping="Wrap" Text="Mobile Number" VerticalAlignment="Top" Width="290"/>
+        <TextBlock x:Name="textBlock5" Foreground="White" HorizontalAlignment="Left" Margin="54,386,0,0" TextWrapping="Wrap" Text="Consulting Doctor Name :" VerticalAlignment="Top" SelectionChanged="textBlock3_Copy_SelectionChanged"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="240,379,0,0" TextWrapping="Wrap" Text="Doctor Name :" VerticalAlignment="Top" Width="290"/>
+        <Button x:Name="button" Content="Submit" Foreground="White" HorizontalAlignment="Left" Margin="241,470,0,0" VerticalAlignment="Top" Width="287"/>
+
+        <TextBlock Text="&#xE77F;" FontSize="45" Foreground="White" FontFamily="Segoe MDL2 Assets" AutomationProperties.Name="Favorite" Margin="61,63,1153,591" RenderTransformOrigin="0.552,0.548" />
+        <CheckBox x:Name="checkBox" Foreground="White" Content="I Accept this Terms and Conditions" HorizontalAlignment="Left" Margin="243,428,0,0" VerticalAlignment="Top" Width="286"/>
+        <Button x:Name="button1" Content="Back" Foreground="White" HorizontalAlignment="Left" Margin="41,597,0,0" VerticalAlignment="Top" Height="37" Width="118" Click="button1_Click"/>
+        <TextBlock x:Name="textBlock6"  HorizontalAlignment="Right" Margin="0,674,20,0" TextWrapping="Wrap" Text="Ministry of Communication and Information Technology, Government of India" Foreground="White" VerticalAlignment="Top" SelectionChanged="textBlock6_SelectionChanged"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="330" Margin="725,173,0,0" VerticalAlignment="Top" Width="502" Source="Assets/PregnantWoman_istock.jpg"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="64" Margin="1100,109,0,0"  VerticalAlignment="Top" Width="66"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="109" Margin="993,-1,0,0"  VerticalAlignment="Top" Width="105"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="34" Margin="1167,172,0,0"  VerticalAlignment="Top" Width="37"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="117" Margin="1205,55,-5,0"  VerticalAlignment="Top" Width="80"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="67" Margin="1101,502,0,0"  VerticalAlignment="Top" Width="70"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="34" Margin="1171,467,0,0"  VerticalAlignment="Top" Width="36"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="54" Margin="1171,569,-1,0"  VerticalAlignment="Top" Width="110"/>
+
+
+    </Grid>
+</Page>

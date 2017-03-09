@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="ICare.Birth"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ICare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#ad1457">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="108,35,0,0" TextWrapping="Wrap" Text="For Infant" Foreground="White" FontSize="40" VerticalAlignment="Top" Height="52" Width="229"/>
+
+        <TextBlock x:ConnectionId='2' x:Name="textBlock1" HorizontalAlignment="Left" Text="Vaccine List" FontSize="25" FontWeight="Bold" Foreground="White" Margin="42,272,0,385" Width="172" ></TextBlock>
+        <TextBlock Text="&#xE77B;" FontSize="45" Foreground="White" FontFamily="Segoe MDL2 Assets" AutomationProperties.Name="Favorite" Margin="40,38,1174,616"/>
+        <Image x:ConnectionId='3' x:Name="image" HorizontalAlignment="Left" Height="132" Margin="41,122,0,0" VerticalAlignment="Top" Width="393" Source="Assets/Domestic-Infant.jpg"/>
+
+        <ListView Margin="44,341,936,178"  Foreground="White">
+            <ListViewItem FontSize="15" Foreground="White">Hepatitis A</ListViewItem>
+            <ListViewItem FontSize="15" Foreground="White">Immune globulin (IG) for hepatitis A protection</ListViewItem>
+            <ListViewItem FontSize="15" Foreground="White">Hepatitis B</ListViewItem>
+            <ListViewItem FontSize="15" Foreground="White">Influenza vaccine</ListViewItem>
+            <ListViewItem FontSize="15" Foreground="White">MMR or MMRV vaccine</ListViewItem>
+            <ListViewItem FontSize="15" Foreground="White">Meningococcal vaccine</ListViewItem>
+        </ListView>
+        
+        <TextBlock x:ConnectionId='4' x:Name="textBlock2" HorizontalAlignment="Left" Margin="721,32,0,0" TextWrapping="Wrap" Text="Apply For Birth Certificate" Foreground="White" FontSize="40" VerticalAlignment="Top" Height="52" Width="490"                                                   />
+        <TextBlock x:ConnectionId='5' x:Name="textBlock3" HorizontalAlignment="Left" Margin="656,111,0,0" TextWrapping="Wrap" Text="Infant Name : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        
+        <TextBlock Text="&#xE8A1;" FontSize="45" Foreground="White" FontFamily="Segoe MDL2 Assets" AutomationProperties.Name="Favorite" Margin="660,39,554,615" RenderTransformOrigin="-0.386,0.455"/>
+        <TextBox x:ConnectionId='6' x:Name="textBox"  HorizontalAlignment="Left" Margin="863,114,0,0" TextWrapping="Wrap" Text="Enter the Name of Infant" VerticalAlignment="Top" Width="362"/>
+        
+        
+        <TextBlock x:ConnectionId='7' x:Name="textBlock4" HorizontalAlignment="Left" Margin="657,163,0,0" TextWrapping="Wrap" Text="Father Name : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='8' x:Name="textBox4"  HorizontalAlignment="Left" Margin="862,167,0,0" TextWrapping="Wrap" Text="Enter the Name of Infant's Fathor" VerticalAlignment="Top" Width="362"/>
+       
+        <TextBlock x:ConnectionId='9' x:Name="textBlock5" HorizontalAlignment="Left" Margin="656,218,0,0" TextWrapping="Wrap" Text="Mother Name : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='10' x:Name="textBox5"  HorizontalAlignment="Left" Margin="862,220,0,0" TextWrapping="Wrap" Text="Enter the Name of Infant's Mother" VerticalAlignment="Top" Width="362"/>
+        
+        <TextBlock x:ConnectionId='11' x:Name="textBlock6" HorizontalAlignment="Left" Margin="656,272,0,0" TextWrapping="Wrap" Text="Date of Birth : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <CalendarDatePicker HorizontalAlignment="Left" Margin="862,273,0,0" VerticalAlignment="Top"/>
+        
+        <TextBlock x:ConnectionId='12' x:Name="textBlock7" HorizontalAlignment="Left" Margin="657,325,0,0" TextWrapping="Wrap" Text="Birth State : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='13' x:Name="textBox7"  HorizontalAlignment="Left" Margin="861,327,0,0" TextWrapping="Wrap" Text="Enter the Bith State" VerticalAlignment="Top" Width="362"/>
+
+        <TextBlock x:ConnectionId='14' x:Name="textBlock8" HorizontalAlignment="Left" Margin="657,378,0,0" TextWrapping="Wrap" Text="Birth City : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='15' x:Name="textBox8"  HorizontalAlignment="Left" Margin="861,381,0,0" TextWrapping="Wrap" Text="Enter the Bith City" VerticalAlignment="Top" Width="362"/>
+        <TextBlock x:ConnectionId='16' x:Name="textBlock9" HorizontalAlignment="Left" Margin="657,431,0,0" TextWrapping="Wrap" Text="Birth Distict : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='17' x:Name="textBox9"  HorizontalAlignment="Left" Margin="862,433,0,0" TextWrapping="Wrap" Text="Enter the Bith Distict" VerticalAlignment="Top" Width="362"/>
+        
+        
+        <TextBlock x:ConnectionId='18' x:Name="textBlock10" HorizontalAlignment="Left" Margin="658,479,0,0" TextWrapping="Wrap" Text="Sex : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <RadioButton x:ConnectionId='19' x:Name="radioButton" Content="Male" Foreground="White" HorizontalAlignment="Left" Margin="867,480,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:ConnectionId='20' x:Name="radioButton1" Content="Female" Foreground="White" HorizontalAlignment="Left" Margin="1014,482,0,0" VerticalAlignment="Top"/>
+
+
+        <ComboBox Height="32" Margin="862,521,0,0" Width="130">
+            <ComboBoxItem x:ConnectionId='30' Name="cbi1">Indian</ComboBoxItem>
+            <ComboBoxItem x:ConnectionId='31' Name="cbi2">Canadian</ComboBoxItem>
+            <ComboBoxItem x:ConnectionId='32' Name="cbi3">Others</ComboBoxItem>
+        </ComboBox>
+        <TextBlock x:ConnectionId='21' x:Name="textBlock11" HorizontalAlignment="Left" Margin="658,518,0,0" TextWrapping="Wrap" Text="Nationality : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        
+        <TextBlock x:ConnectionId='22' x:Name="textBlock12" HorizontalAlignment="Left" Margin="657,567,0,0" TextWrapping="Wrap" Text="Address : " Foreground="White" FontSize="20" VerticalAlignment="Top" Height="38" Width="136"/>
+        <TextBox x:ConnectionId='23' x:Name="textBox12"  HorizontalAlignment="Left" Margin="862,570,0,0" TextWrapping="Wrap" Text="Enter the Address" VerticalAlignment="Top" Width="362"/>
+        <CheckBox x:ConnectionId='24' x:Name="checkBox" Content="I Accept the Terms and Conditions" Foreground="White" HorizontalAlignment="Left" Margin="862,613,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='25' x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="862,652,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='26' x:Name="button1" Content="Reset" HorizontalAlignment="Left" Margin="971,653,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock x:ConnectionId='27' x:Name="textBlock13" Foreground="White" HorizontalAlignment="Left" Margin="55,557,0,0" TextWrapping="Wrap" Text="No birth certificate is issued when a friendship is born. There is nothing tangible. There is just a feeling that your life is different and that your capacity to love and care has miraculously been enlarged without any effort on your part. Its like"  VerticalAlignment="Top" Width="476"/>
+        <Button x:ConnectionId='28' x:Name="button2" Content="Back" HorizontalAlignment="Left" Margin="51,649,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='29' x:Name="button3" Content="Home" HorizontalAlignment="Left" Margin="125,649,0,0" VerticalAlignment="Top"                      />
+
+    </Grid>
+</Page>
+

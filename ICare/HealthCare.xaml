@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="ICare.HealthCare"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ICare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#ad1457">
+        <TextBlock x:Name="textBlock" Foreground="White" FontSize="30" HorizontalAlignment="Left" Margin="107,38,0,0" TextWrapping="Wrap" Text="Health Care Tips" VerticalAlignment="Top"/>
+        <TextBlock Text="&#xE912;" FontSize="50" Foreground="White" FontFamily="Segoe MDL2 Assets" AutomationProperties.Name="Favorite" Margin="40,35,1174,619" RenderTransformOrigin="-0.386,0.455"/>
+
+        <TextBlock x:Name="textBlock1" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="41,124,0,0" TextWrapping="Wrap" Text="Laughing lowers levels of stress hormones and strengthens the immune system." VerticalAlignment="Top" Width="472"/>
+        <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="50,614,0,0" VerticalAlignment="Top" Click="button_Click" Width="125"/>
+
+        <TextBlock x:Name="textBlock2" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="41,206,0,0" TextWrapping="Wrap" Text="The benefits of exercise are more than just for weight management. Exercise also combats stress, promotes better sleep and activates the immune system." VerticalAlignment="Top" Width="472"/>
+        <TextBlock x:Name="textBlock3" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="41,314,0,0" TextWrapping="Wrap" Text="Touch stimulates the release of endorphins (the body's natural pain killers). There are approximately 5 million touch receptors in our skin—3,000 in each finger tip." VerticalAlignment="Top" Width="472"/>
+        <TextBlock x:Name="textBlock4" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="41,454,0,0" TextWrapping="Wrap" Text="Research has shown that when people exercise by walking, they walk 30% longer if they walk to music." VerticalAlignment="Top" Width="472"/>
+        <TextBlock x:Name="textBlock5" Foreground="White" FontSize="20" HorizontalAlignment="Left" Margin="717,124,0,0" TextWrapping="Wrap" Text="Drinking water before and after a spa treatment, reduces soreness and helps to flush the body of toxins released from the muscles." VerticalAlignment="Top" Width="472"/>
+
+
+
+    </Grid>
+</Page>

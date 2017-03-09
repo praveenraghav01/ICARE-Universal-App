@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="ICare.contact"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ICare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#311b92">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="83,21,0,0" TextWrapping="Wrap" Text="Developers" Foreground="White" FontSize="45" VerticalAlignment="Top"/>
+
+        <TextBlock Text="&#xE77B;" FontSize="45" Foreground="White" FontFamily="Segoe MDL2 Assets" AutomationProperties.Name="Favorite" Margin="17,25,1197,629"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock2" HorizontalAlignment="Left" Margin="83,100,0,0" TextWrapping="Wrap" Text="Suraj Kumar" Foreground="White" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock3" HorizontalAlignment="Left" Margin="83,132,0,0" TextWrapping="Wrap" Text="Vrij Raj Singh" Foreground="White" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock4" HorizontalAlignment="Left" Margin="330,105,0,0" TextWrapping="Wrap" Text="Namit Pathak" Foreground="White" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock5" HorizontalAlignment="Left" Margin="330,137,0,0" TextWrapping="Wrap" Text="Praveen Raghav" Foreground="White" FontSize="20" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='6' x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="83,215,0,0" VerticalAlignment="Top" Width="82"                     />
+
+
+
+
+
+    </Grid>
+</Page>
+
+
